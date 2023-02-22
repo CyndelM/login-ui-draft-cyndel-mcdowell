@@ -1,0 +1,65 @@
+.container-fluid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bg-vid{
+  position: fix;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 0; 
+}
+.login-box{
+  flex-direction: column;
+  display:flex;
+  height: 50vh;
+  width: 50vh;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-vector/black-yellow-stripes-warning-background_1017-37397.jpg?w=1380&t=st=1676582413~exp=1676583013~hmac=dbf29edbeaf68fd05b98fb42283f0cc54825777797216a3e1599549d78b0b935");
+  background-size: 414px 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 414px;
+  min-height: 276px;
+  max-height: 450px;
+  border-radius: 10%;
+  box-shadow: -5px 21px 139px 4px rgba(0,0,0,0.75);
+  z-index: 1;
+
+}
+#username{
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+#password{
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+#login-button{
+  position: relative;
+  background: url("https://static.wikia.nocookie.net/kausers/images/d/d2/Donotpress.PNG/revision/latest?cb=20150801160708");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-position-y: -.75em;
+  border: thick solid black;
+  background-origin: border-box;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 100%;
+  height: 15em;
+  width: 15em;
+  
+}
+h1{
+  color: ghostwhite;
+  font-size: 5em;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
