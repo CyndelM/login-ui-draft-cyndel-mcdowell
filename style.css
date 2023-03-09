@@ -19,7 +19,7 @@
 
 .login-box{
   flex-direction: column;
-  display:flex;
+  display: flex;
   height: 300px;
   width: 300px;
   overflow: hidden;
@@ -27,9 +27,10 @@
   align-items: center;
   justify-content: center;
   background-image: url("https://img.freepik.com/free-vector/black-yellow-stripes-warning-background_1017-37397.jpg?w=1380&t=st=1676582413~exp=1676583013~hmac=dbf29edbeaf68fd05b98fb42283f0cc54825777797216a3e1599549d78b0b935");
-  background-size: 100vh 100vh;
+  background-size: 100vh 100vw;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 200%;
   min-height: 350px;
   min-width: 350px;
   border-radius: 10%;
